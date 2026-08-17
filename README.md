@@ -2,7 +2,7 @@
   <img src="./assets/profile-banner.svg" alt="Ignacio Barboza Espinoza, desarrollador de software junior. Construyo aplicaciones y herramientas que conectan producto, diseño e ingeniería de software." width="100%" />
 </p>
 
-Soy desarrollador de software junior y estudiante de Ingeniería en Tecnologías de la Información y Comunicaciones en el Instituto Tecnológico Superior de Zamora. Trabajo principalmente con **React Native, TypeScript y Node.js**, y me interesa construir productos útiles con una base técnica que pueda mantenerse y comprobarse.
+Soy desarrollador de software junior y estudiante/egresado de Ingeniería en Tecnologías de la Información y Comunicaciones en el Instituto Tecnológico Superior de Zamora. Trabajo principalmente con **React Native, TypeScript y Node.js**, y me interesa construir productos útiles con una base técnica que pueda mantenerse y comprobarse.
 
 ## Proyectos seleccionados
 
