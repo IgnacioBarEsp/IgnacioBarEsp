@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title description">
+  <title id="title">Ignacio Barboza Espinoza — Desarrollador de Software Junior</title>
+  <desc id="description">Construyo aplicaciones y herramientas que conectan producto, diseño e ingeniería de software.</desc>
+  <style>
+    .name { font: 700 56px "Segoe UI", Arial, sans-serif; letter-spacing: -1.5px; }
+    .role { font: 600 23px "Segoe UI", Arial, sans-serif; letter-spacing: 0.2px; }
+    .statement { font: 500 27px "Segoe UI", Arial, sans-serif; }
+    .label { font: 700 15px "Segoe UI", Arial, sans-serif; letter-spacing: 2px; }
+  </style>
+  <rect width="1200" height="400" fill="oklch(0.31 0.085 116)" />
+  <rect x="56" y="58" width="7" height="284" fill="oklch(0.71 0.135 113)" />
+  <text x="94" y="96" fill="oklch(0.71 0.135 113)" class="label">DESARROLLO DE SOFTWARE</text>
+  <text x="94" y="171" fill="oklch(0.94 0.035 95)" class="name">Ignacio Barboza Espinoza</text>
+  <text x="96" y="217" fill="oklch(0.94 0.035 95)" class="role">React Native · TypeScript · Node.js</text>
+  <line x1="96" y1="260" x2="1098" y2="260" stroke="oklch(0.71 0.135 113)" stroke-width="2" />
+  <text x="96" y="308" fill="oklch(0.94 0.035 95)" class="statement">Construyo aplicaciones y herramientas que conectan</text>
+  <text x="96" y="344" fill="oklch(0.94 0.035 95)" class="statement">producto, diseño e ingeniería de software.</text>
+  <circle cx="1098" cy="96" r="11" fill="oklch(0.71 0.135 113)" />
+  <circle cx="1065" cy="96" r="5" fill="oklch(0.94 0.035 95)" />
+</svg>

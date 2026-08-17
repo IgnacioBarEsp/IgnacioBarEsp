@@ -1,114 +1,143 @@
-# Ignacio Barboza Espinoza
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Ignacio Barboza Espinoza, desarrollador de software junior. Construyo aplicaciones y herramientas que conectan producto, diseño e ingeniería de software." width="100%" />
+</p>
 
-Estudiante de **Ingeniería en Tecnologías de la Información y Comunicaciones** — TecNM, Instituto
-Tecnológico Superior de Zamora, Michoacán.
+Soy desarrollador de software junior y estudiante de Ingeniería en Tecnologías de la Información y Comunicaciones en el Instituto Tecnológico Superior de Zamora. Trabajo principalmente con **React Native, TypeScript y Node.js**, y me interesa construir productos útiles con una base técnica que pueda mantenerse y comprobarse.
 
-Construyo software con agentes de código y **desarrollo guiado por especificación**: la
-especificación y los criterios de aceptación se escriben antes que el código, y un cambio no se
-cierra sin evidencia. Me interesa la parte de ingeniería de la IA — integrarla, acotarla y hacerla
-verificable — más que el modelo en sí.
+## Proyectos seleccionados
 
-**Disponible para residencia profesional: agosto – diciembre 2026.** Presencial en Michoacán o remoto.
+### [PlanearIA](https://github.com/IgnacioBarEsp/PlanearIA)
 
----
+Plataforma para docentes centrada en reducir su carga de trabajo, evitar trabajo innecesario y mantener todo ordenado. La visión es que los docentes trabajen como ya lo hacen, pero mucho mejor: planeaciones, clases, contenido, comunicación y asistencia con IA dentro de una misma experiencia.
 
-## Proyectos
+<a href="https://planearai.com">
+  <img src="./assets/planearia-prototipo.webp" alt="Prototipo de la visión de PlanearIA: escritorio docente en verde profundo" width="100%" />
+</a>
 
-### [PlanearIA](https://github.com/RitualBoat/PlanearIA) — Suite docente offline-first con IA
-Aplicación para profesores en México: planeaciones, clases, seguimiento y comunicación sin salir de
-la app y sin depender de la conexión. Desarrollador único.
+**React Native · Expo · TypeScript · Node.js · MongoDB**<br>
+[Abrir la aplicación web](https://planearai.com) · [Ver el repositorio](https://github.com/IgnacioBarEsp/PlanearIA) · [Descargar APK](https://github.com/IgnacioBarEsp/PlanearIA/releases/latest)
 
-`React Native` `Expo SDK 54` `TypeScript` `Node.js serverless` `MongoDB Atlas` `Jest` `Playwright` `GitHub Actions`
+### [Project Engineering OS](https://github.com/IgnacioBarEsp/project-engineering-os)
 
-| | |
-|---|---|
-| Líneas de TypeScript | 101,231 |
-| Pruebas automatizadas | 902 en 132 archivos |
-| Pull requests integrados | 51 |
-| Especificaciones archivadas con evidencia | 48 |
-| Pipelines de CI que bloquean el merge | 5 |
+<table>
+  <tr>
+    <td>
+      <strong>Ingeniería de proyectos reproducible desde un solo comando.</strong><br><br>
+      CLI publicada en npm para iniciar repositorios con gobernanza, desarrollo guiado por especificaciones, herramientas para agentes y control de deuda técnica. Nació al extraer y generalizar prácticas que adopté mientras construía PlanearIA.<br><br>
+      <code>npx create-project-engineering-os@latest</code><br><br>
+      <a href="https://github.com/IgnacioBarEsp/project-engineering-os">Repositorio</a> ·
+      <a href="https://www.npmjs.com/package/create-project-engineering-os">Paquete en npm</a>
+    </td>
+  </tr>
+</table>
 
-- Toda la IA pasa por un gateway de backend con cascada de proveedores compatibles con OpenAI,
-  timeouts y límite de uso por usuario: **ninguna llave de proveedor vive en el cliente**.
-- Capa offline-first con cola de sincronización idempotente y aislamiento de datos por usuario,
-  probada en el recorrido offline → reconexión → segundo dispositivo.
+### [Cute Seals](https://github.com/IgnacioBarEsp/Cute_Seals_BP)
 
-### [project-engineering-os](https://github.com/RitualBoat/project-engineering-os) — Gobernanza de repositorios como CLI · MIT
-Publicado en npm como
-[`create-project-engineering-os`](https://www.npmjs.com/package/create-project-engineering-os).
-Prepara un repositorio nuevo con gobernanza, especificaciones, harness de agentes y control de deuda
-técnica en un solo comando. Es el método que ya usaba en PlanearIA, extraído para que sea reutilizable.
+<p align="center">
+  <img src="./assets/cute-seals-icon.png" alt="Icono original de Cute Seals: una foca pixel art" width="190" />
+</p>
 
-- Cada modificación automática es reversible: journal, hash y comando de rollback por transacción.
-- Los archivos se clasifican por propiedad (administrado / humano / del proyecto) y la ejecución se
-  detiene antes de sobrescribir trabajo humano.
-- Una sola fuente de reglas genera instrucciones para Claude Code, Codex, Cursor, OpenCode y GitHub Copilot.
+Add-on para Minecraft Bedrock que incorpora focas domesticables con cuatro variantes por bioma, animaciones, montura anfibia, objetos y comportamientos propios. Fue un proyecto para aprender cómo conviven arte, configuración de entidades y lógica de juego.
 
-### [Cute Seals](https://github.com/RitualBoat/Cute_Seals_BP) — Add-on de Minecraft Bedrock
-Entidad personalizada con 4 variantes por bioma, 10 comportamientos de IA priorizados, 7 animaciones,
-domesticación, montura anfibia y tablas de botín, sobre la Script API de Minecraft Bedrock 1.21+.
-Tres versiones publicadas, empaquetadas a `.mcaddon` con un script de PowerShell.
+**Minecraft Bedrock · JavaScript · Script API · Blockbench**<br>
+[Ver el proyecto](https://github.com/IgnacioBarEsp/Cute_Seals_BP) · [Descargar el add-on](https://github.com/IgnacioBarEsp/Cute_Seals_BP/releases/latest)
 
-### [Salas API](https://github.com/RitualBoat/salas-api) — REST API en FastAPI
-Servicio para administrar salas, mantenimientos, actividades y materiales de un campus, con
-validación de esquema en base de datos y documentación OpenAPI automática. Proyecto académico de
-Arquitectura de Servicios.
+### [Salas API](https://github.com/IgnacioBarEsp/salas-api)
 
----
+<table>
+  <tr>
+    <td>
+      <strong>API REST para administrar espacios de un campus.</strong><br><br>
+      Proyecto académico para gestionar salas, mantenimientos, actividades y materiales. Incluye validación de esquema en la base de datos y documentación OpenAPI generada automáticamente.<br><br>
+      <strong>Python · FastAPI · MongoDB · OpenAPI</strong><br>
+      <a href="https://github.com/IgnacioBarEsp/salas-api">Ver el repositorio</a>
+    </td>
+  </tr>
+</table>
 
 ## Cómo trabajo
 
-- **Especificación antes que código.** Criterios de aceptación observables, y un cambio no se archiva
-  sin evidencia que lo respalde.
-- **Agentes con herramientas propias.** Skills, reglas y subagentes configurados y versionados en el
-  repositorio, no prompts sueltos.
-- **Contexto recuperado, no adivinado.** RAG sobre el propio código mediante servidores MCP, para que
-  el agente responda sobre el repositorio real.
-- **CI que bloquea.** Typecheck, lint, pruebas, backend y QA visual por breakpoint; si algo falla, no
-  entra.
-- **Deuda técnica gobernada.** Los hallazgos se verifican y clasifican antes de convertirse en deuda;
-  un warning sin verificar no autoriza un cambio.
+En PlanearIA y en mis herramientas personales he adoptado prácticas que me ayudan a trabajar con mayor claridad:
 
-## Stack
+- Uso **desarrollo guiado por especificaciones (SDD)** para definir el cambio y sus criterios de aceptación antes de implementarlo.
+- Utilizo herramientas como **GitNexus** para dar a los agentes de IA contexto verificable sobre el código, sus dependencias y el impacto de un cambio.
+- Acompaño los cambios con **pruebas automatizadas, revisión visual y CI**, según lo que necesita cada proyecto.
+- Trato la IA como una herramienta de ingeniería: propongo, reviso y compruebo su trabajo antes de integrarlo.
 
-**Lenguajes:** TypeScript · JavaScript · Python · SQL
-**Móvil y web:** React Native · Expo · React Navigation
-**Backend y datos:** Node.js serverless · FastAPI · MongoDB · MySQL · JWT con sesiones de refresco
-**IA aplicada:** integración de LLMs vía gateway propio · RAG sobre código con MCP · Claude Code · Ollama
-**Calidad y DevOps:** Jest · Playwright · GitHub Actions · Vercel · Git
+## Tecnologías
 
-## Certificaciones
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" title="TypeScript" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="36" height="36" alt="React y React Native" title="React y React Native" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node.js" title="Node.js" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="36" height="36" alt="Python" title="Python" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="36" height="36" alt="MongoDB" title="MongoDB" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="36" height="36" alt="Git" title="Git" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="36" height="36" alt="GitHub Actions" title="GitHub Actions" />
+</p>
 
-Cisco **CCNA 1** y **CCNA 2** completados · **CCNA 3** (Enterprise Networking, Security and
-Automation) en curso.
+TypeScript · React Native · Expo · Node.js · Python · MongoDB · GitHub Actions
 
-## Contacto
+## Sobre mí
 
-itic_ibarboza@accitesz.com · Zamora, Michoacán, México
+Soy un desarrollador junior de Zamora, Michoacán. Me gusta aprender construyendo, documentar las decisiones importantes y entender el producto además del código.
+
+**Contacto:** [IgnacioBar.esp@gmail.com](mailto:IgnacioBar.esp@gmail.com)
 
 <details>
-<summary>English</summary>
+<summary><strong>English version</strong></summary>
 
 <br>
 
-**ICT Engineering student** at TecNM, Instituto Tecnológico Superior de Zamora, Mexico.
+I am a junior software developer and an Information and Communication Technologies Engineering student at Instituto Tecnológico Superior de Zamora. I mainly work with **React Native, TypeScript and Node.js**, and I enjoy building useful products on a technical foundation that can be maintained and verified.
 
-I build software with coding agents and **spec-driven development**: specifications and acceptance
-criteria come before the code, and no change closes without evidence. My interest is the engineering
-side of AI — integrating it, bounding it and making it verifiable — more than the model itself.
+### Selected projects
 
-**Available for a 500-hour engineering internship: August – December 2026.** On-site in Michoacán or remote.
+#### [PlanearIA](https://github.com/IgnacioBarEsp/PlanearIA)
 
-- **[PlanearIA](https://github.com/RitualBoat/PlanearIA)** — Offline-first teaching suite. Sole
-  developer. 101,231 lines of TypeScript, 902 automated tests, 51 merged pull requests, 5 blocking CI
-  pipelines. All AI calls routed through a backend gateway with an OpenAI-compatible provider
-  cascade — zero provider keys in the client.
-- **[project-engineering-os](https://github.com/RitualBoat/project-engineering-os)** — Repository
-  governance CLI, published on npm under MIT. Every automated change is reversible through a
-  per-transaction journal, hash and rollback command.
-- **[Cute Seals](https://github.com/RitualBoat/Cute_Seals_BP)** — Minecraft Bedrock add-on: custom
-  entity with 4 biome variants, 10 prioritized AI behaviors and 7 animations. 3 published releases.
-- **[Salas API](https://github.com/RitualBoat/salas-api)** — FastAPI + MongoDB
-  REST service with database-level schema validation and auto-generated OpenAPI docs.
+A platform for teachers focused on reducing workload, avoiding unnecessary work and keeping everything organized. Its vision is to let teachers work the way they already do, only much better: lesson planning, classes, content, communication and AI assistance in one connected experience.
+
+**React Native · Expo · TypeScript · Node.js · MongoDB**<br>
+[Open the web app](https://planearai.com) · [View repository](https://github.com/IgnacioBarEsp/PlanearIA) · [Download APK](https://github.com/IgnacioBarEsp/PlanearIA/releases/latest)
+
+#### [Project Engineering OS](https://github.com/IgnacioBarEsp/project-engineering-os)
+
+An npm CLI for starting repositories with governance, spec-driven development, agent tooling and technical-debt control. It grew from practices I adopted while building PlanearIA and later extracted into a reusable project.
+
+`npx create-project-engineering-os@latest`<br>
+[View repository](https://github.com/IgnacioBarEsp/project-engineering-os) · [View on npm](https://www.npmjs.com/package/create-project-engineering-os)
+
+#### [Cute Seals](https://github.com/IgnacioBarEsp/Cute_Seals_BP)
+
+A Minecraft Bedrock add-on with tameable seals, four biome variants, animations, amphibious riding, custom items and behaviors. It helped me learn how art, entity configuration and game logic work together.
+
+**Minecraft Bedrock · JavaScript · Script API · Blockbench**<br>
+[View project](https://github.com/IgnacioBarEsp/Cute_Seals_BP) · [Download add-on](https://github.com/IgnacioBarEsp/Cute_Seals_BP/releases/latest)
+
+#### [Salas API](https://github.com/IgnacioBarEsp/salas-api)
+
+An academic REST API for managing campus rooms, maintenance, activities and materials, with database schema validation and automatically generated OpenAPI documentation.
+
+**Python · FastAPI · MongoDB · OpenAPI**<br>
+[View repository](https://github.com/IgnacioBarEsp/salas-api)
+
+### How I work
+
+- I use **spec-driven development (SDD)** to define changes and acceptance criteria before implementation.
+- I use tools such as **GitNexus** to provide AI agents with verifiable context about code, dependencies and change impact.
+- I support changes with **automated tests, visual review and CI** according to each project's needs.
+- I treat AI as an engineering tool: I propose, review and verify its work before integration.
+
+### About me
+
+I am a junior developer from Zamora, Michoacán, Mexico. I like learning by building, documenting important decisions and understanding the product as well as the code.
+
+**Contact:** [IgnacioBar.esp@gmail.com](mailto:IgnacioBar.esp@gmail.com)
 
 </details>
