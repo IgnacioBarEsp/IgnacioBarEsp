@@ -19,17 +19,14 @@ Plataforma para docentes centrada en reducir su carga de trabajo, evitar trabajo
 
 ### [Project Engineering OS](https://github.com/IgnacioBarEsp/project-engineering-os)
 
-<table>
-  <tr>
-    <td>
-      <strong>Ingeniería de proyectos reproducible desde un solo comando.</strong><br><br>
-      CLI publicada en npm para iniciar repositorios con gobernanza, desarrollo guiado por especificaciones, herramientas para agentes y control de deuda técnica. Nació al extraer y generalizar prácticas que adopté mientras construía PlanearIA.<br><br>
-      <code>npx create-project-engineering-os@latest</code><br><br>
-      <a href="https://github.com/IgnacioBarEsp/project-engineering-os">Repositorio</a> ·
-      <a href="https://www.npmjs.com/package/create-project-engineering-os">Paquete en npm</a>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/IgnacioBarEsp/project-engineering-os">
+  <img src="./assets/project-engineering-os-control-plane.png" alt="Project Engineering OS: plano de control del flujo SDD, evidencia real del CLI y motor de deuda técnica" width="100%" />
+</a>
+
+**Ingeniería de proyectos reproducible desde un solo comando.** CLI publicada en npm para iniciar repositorios con gobernanza, desarrollo guiado por especificaciones, herramientas para agentes y control de deuda técnica. Nació al extraer y generalizar prácticas que adopté mientras construía PlanearIA.
+
+`npx --yes create-project-engineering-os@0.1.6 bootstrap --target .`<br>
+[Ver el repositorio](https://github.com/IgnacioBarEsp/project-engineering-os) · [Ver el paquete en npm](https://www.npmjs.com/package/create-project-engineering-os)
 
 ### [Cute Seals](https://github.com/IgnacioBarEsp/Cute_Seals_BP)
 
@@ -110,7 +107,7 @@ A platform for teachers focused on reducing workload, avoiding unnecessary work 
 
 An npm CLI for starting repositories with governance, spec-driven development, agent tooling and technical-debt control. It grew from practices I adopted while building PlanearIA and later extracted into a reusable project.
 
-`npx create-project-engineering-os@latest`<br>
+`npx --yes create-project-engineering-os@0.1.6 bootstrap --target .`<br>
 [View repository](https://github.com/IgnacioBarEsp/project-engineering-os) · [View on npm](https://www.npmjs.com/package/create-project-engineering-os)
 
 #### [Cute Seals](https://github.com/IgnacioBarEsp/Cute_Seals_BP)
